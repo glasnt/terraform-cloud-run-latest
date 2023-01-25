@@ -23,5 +23,5 @@ variable "service_name" {
 
 variable "image_name" {
   type        = string
-  description = "Container Registry image name"
+  description = "Container Registry image name, in your current project (gcr.io/PROJECT/IMAGE_NAME)"
 }
